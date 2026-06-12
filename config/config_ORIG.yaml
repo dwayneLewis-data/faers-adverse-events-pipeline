@@ -1,12 +1,7 @@
 api:
   base_url: "https://api.fda.gov/drug/event.json"
-  search: "serious:1 AND receivedate:[20190101 TO 20231231]"
-  sort: "receivedate:asc"
   limit: 100
   max_records: 1000
-  timeout_seconds: 30
-  max_retries: 3
-  backoff_seconds: 5
 
 data:
   raw_path: "data/raw"
